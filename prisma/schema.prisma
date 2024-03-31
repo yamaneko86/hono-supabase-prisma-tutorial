@@ -14,6 +14,6 @@ datasource db {
 }
 
 model User {
-  user_id String @id @default(dbgenerated("uuid_generate_v4()"))
+  user_id   String @id      @default(dbgenerated("uuid_generate_v4()"))
   user_name String @db.Text
 }
