@@ -9,13 +9,13 @@ export const create = app.post("/", async (c) => {
   const username = String(formData.get("username"));
 
   try {
-    const user = await prisma.user.create({
+    await prisma.user.create({
       data: {
         user_name: username,
       },
     });
-    c.redirect("/users");
   } catch (error) {
     console.log("Error!");
   }
+  return c.redirect("/users");
 });
