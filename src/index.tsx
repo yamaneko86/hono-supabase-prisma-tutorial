@@ -32,6 +32,7 @@ const App: FC = () => {
           <button type="submit">登録</button>
         </div>
       </form>
+      <a href="/users">ユーザー 一覧</a>
     </Layout>
   );
 };
