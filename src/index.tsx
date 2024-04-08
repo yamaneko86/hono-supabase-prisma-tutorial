@@ -24,7 +24,7 @@ const App: FC = () => {
             type="username"
             name="username"
             id="username"
-            placeholder="太郎"
+            placeholder="名前を入力して下さい"
             required
           />
         </div>
