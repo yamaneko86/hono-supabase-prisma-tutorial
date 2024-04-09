@@ -24,7 +24,7 @@ const App: FC = () => {
             type="username"
             name="username"
             id="username"
-            placeholder="名前を入力して下さい"
+            placeholder="Please input your name..."
             required
           />
         </div>
@@ -32,7 +32,7 @@ const App: FC = () => {
           <button type="submit">登録</button>
         </div>
       </form>
-      <a href="/users">ユーザー 一覧</a>
+      <a href="/users">ユーザーリスト</a>
     </Layout>
   );
 };
