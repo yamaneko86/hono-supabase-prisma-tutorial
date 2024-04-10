@@ -24,7 +24,7 @@ const App: FC = () => {
             type="username"
             name="username"
             id="username"
-            placeholder="Please input your name..."
+            placeholder="Input your name!!"
             required
           />
         </div>
