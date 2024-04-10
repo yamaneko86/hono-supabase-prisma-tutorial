@@ -20,13 +20,7 @@ const App: FC = () => {
       <form action="/create" method="post">
         <div>
           <label htmlFor="username">ユーザーネーム</label>
-          <input
-            type="username"
-            name="username"
-            id="username"
-            placeholder="Input your name!!"
-            required
-          />
+          <input name="username" placeholder="Input your name!!" required />
         </div>
         <div>
           <button type="submit">登録</button>
