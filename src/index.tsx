@@ -11,7 +11,7 @@ const Layout: FC = (props) => {
       <head>
         <meta charset="UTF-8" />
         <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-        <title>Document</title>
+        <title>Hono × Supabase × Prisma</title>
         <script src="https://cdn.tailwindcss.com" />
       </head>
       <body>{props.children}</body>
